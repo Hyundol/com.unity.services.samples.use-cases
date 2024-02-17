@@ -59,8 +59,8 @@ namespace Unity.Services.Samples.InGameMailbox
             EconomyManager.instance.InitializeEconomyLookups();
 
             await Task.WhenAll(
-                EconomyManager.instance.RefreshCurrencyBalances(),
-                AddressablesManager.instance.PreloadAllEconomySprites()
+                EconomyManager.instance.RefreshCurrencyBalances(), // 재화 최신화 
+                AddressablesManager.instance.PreloadAllEconomySprites() // 재화에 해당하는 아이콘 사전 로드 (게임 진행에 유용)
             );
             if (this == null) return;
 
