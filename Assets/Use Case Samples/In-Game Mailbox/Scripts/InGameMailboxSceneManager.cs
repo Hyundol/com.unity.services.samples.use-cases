@@ -75,9 +75,9 @@ namespace Unity.Services.Samples.InGameMailbox
             );
             if (this == null) return;
 
-            CloudSaveManager.instance.DeleteExpiredMessages();
-            CloudSaveManager.instance.CheckForNewMessages();
-            await CloudSaveManager.instance.SavePlayerInboxInCloudSave();
+            CloudSaveManager.instance.DeleteExpiredMessages(); // 만료된 메세지 삭제
+            CloudSaveManager.instance.CheckForNewMessages(); // 새로운 메세지 확인
+            await CloudSaveManager.instance.SavePlayerInboxInCloudSave(); // 플레이어의 받은 편지를 클라우드에 저장.
         }
 
         async void Update()

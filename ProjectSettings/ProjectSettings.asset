@@ -936,11 +936,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 82e06e34-8fcf-419e-9183-bea23769e215
+  cloudProjectId: 49d68624-c65a-4136-bd7c-9cc55c97373b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Unity Gaming Services Use Cases 2
-  organizationId: ugs-samples
+  projectName: Unity Gaming Services Use Cases (1)
+  organizationId: dolhyun
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
